@@ -1,11 +1,10 @@
-let day = "Sunday"
-let age = "12"
-let time = "12"
+let day = 'Sunday'
+let age = '12'
+const time = '12'
 
 document.getElementById('button').addEventListener('click', wario)
 
 function wario () {
-  //get the .value from input boxes and save them in the day and age variables
   age = document.getElementById('answer1').value
   age = parseInt(age)
   day = document.getElementById('answer2').value
